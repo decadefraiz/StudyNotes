@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Sirius Notebook',
+      repo: 'https://github.com/decadefraiz/StudyNotes',
+      homepage: 'homepage.md',
+      auto2top: true,//切换页面自动跳转至顶部
+      loadSidebar: true,
+      subMaxLevel: 3,
+      maxLevel: 6, 
+      sidebarDisplayLevel: 0,//设置侧边栏不显示的标题等级
+      //搜索插件
+      search: {
+        noData: {
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '🔍 搜索一下，你就知道！'
+        }
+      },
+      //页脚插件配置
+      loadFooter: true,
+      loadFooter: '_footer.md',
+      //字数统计
+      count:{
+    countable:true,
+    fontsize:'1.0em',
+    color:'rgb(93,109,126)',
+    language:'chinese'
+  },
+      //文本高亮
+      'flexible-alerts': {
+        style: 'flat'//如果不打开这个，那默认高亮方式是只有侧边颜色条，打开则会底色整体高亮
+    },
+    
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+  <!-- 文本高亮 -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- 页脚信息 -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+</body>
+</html>
