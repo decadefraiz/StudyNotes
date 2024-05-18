@@ -21,3 +21,7 @@
 * <img src="./Component/emoji2_sidebar.svg" alt="emoji logo"> <br>
   * [『常规表情』](/Docs/Emoji/normal.md)
   * [『GitHub经典』](/Docs/Emoji/github.md)
+
+* ![markdown logo](./Component/markdown_sidebar.svg) <br>
+  * [『常用语法』](./Docs/Markdown/normal.md) 
+  * [『进阶设置』](./Docs/Markdown/advanced.md) 
