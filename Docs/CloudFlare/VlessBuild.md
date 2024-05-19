@@ -52,7 +52,7 @@ let proxyIP = '';
 ### 1.Fork项目
 登录[GitHub官网](https://github.com/)，注册一个账号。  
 进入大佬的项目仓库，点击右上角的`Fork`和`Star`，fork后可以自定义名字。   
-<p><img src="/Docs/CloudFlare/img/fork.jpg" alt="如何fork的图片"></p>  
+<img src="/Docs/CloudFlare/img/fork.jpg" alt="如何fork的图片">  
 
 ### 2.创建Pages
 从侧边栏找到`Workers和Pages`，点击`创建应用程序`，继续点击`Pages`，点击`连接到Git`，输入自己的Github账号密码，并绑定，选择`fork`的项目名称，然后点击`开始设置`，项目名称可以自定义，最后点击`保存并部署`。  
@@ -79,7 +79,7 @@ let proxyIP = '';
 最后获取连接的操作方式与Wokers一致，都是`自定义域名/UUID`的形式。
 
 ### 6.优选ip
-详情操作请见[优选ip](./Iptest.md)
+详情操作请见[优选ip](/Docs/CloudFlare/Iptest.md)
 
 >[!attention]
 >- 新建的节点在优选ip之后，尽量不要用代理软件进行测速，就去`youtube`观看4K视频看看速度即可，否则ip会很容易死
