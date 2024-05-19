@@ -1,5 +1,4 @@
-# :smile:敬请期待~
+# ![logo](../../Component/markdown_sidebar.svg ':size=60')
 
-<img src="/IMG/illustration.jpg"> <br>
-
-<p><img src="/IMG/illustration.jpg"></p>
+>[!note|style:callout]
+>敬请期待！
