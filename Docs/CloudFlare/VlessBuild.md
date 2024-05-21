@@ -52,7 +52,7 @@ let proxyIP = '';
 ### 1.Fork项目
 登录[GitHub官网](https://github.com/)，注册一个账号。  
 进入大佬的项目仓库，点击右上角的`Fork`和`Star`，fork后可以自定义名字。   
-<img src="/Docs/CloudFlare/img/fork.jpg" alt="如何fork的图片">  
+<img src="/Docs/CloudFlare/img/fork.jpg" alt="如何fork的图片" />  
 
 ### 2.创建Pages
 从侧边栏找到`Workers和Pages`，点击`创建应用程序`，继续点击`Pages`，点击`连接到Git`，输入自己的Github账号密码，并绑定，选择`fork`的项目名称，然后点击`开始设置`，项目名称可以自定义，最后点击`保存并部署`。  
