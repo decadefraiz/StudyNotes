@@ -37,16 +37,16 @@ server=="cloudflare" && port=="443" && header="Forbidden" && country=="US" && ci
 - 在下载好的`CloudflareST_windows_amd64`的文件夹的上方路径栏运行`cmd`命令，打开终端，输入以下命令
 
 ```shell
-CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 200 -sl 5 -tlr 0.10 -f fdip.txt -o result-fdip.csv
+CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 999 -sl 5 -tlr 0.10 -f fdip.txt -o result-fdip.csv
 # 这是来自fofa网站的ip库
 
-CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 200 -sl 5 -tlr 0.10 -f fdip-tg.txt -o result-fdip-tg.csv
+CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 999 -sl 5 -tlr 0.10 -f fdip-tg.txt -o result-fdip-tg.csv
 # 这是来自telegram的ip库
 
-CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 9999 -sl 3 -tlr 0.20 -dn 50 -f fdip-ca.txt -o result-fdip-ca.csv
-# 这是专门优选California的ip库
+CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 999 -sl 5 -tlr 0.10 -dn 20 -f fdip-san.txt -o result-fdip-san.csv
+# 这是专门优选San Jose的ip库
 
-CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 200 -sl 10 -tlr 0.10 -dn 50 -f fdip-santa.txt -o result-fdip-santa.csv
+CloudflareST.exe -url https://cs.fraiz555.dynv6.net/100m -tp 443 -tl 999 -sl 5 -tlr 0.10 -dn 20 -f fdip-santa.txt -o result-fdip-santa.csv
 # 这是专门挑选Santa Clara的ip库
 ```
 >`-url`=测速地址，`-tp`=测试端口，`-tl`=延迟上限，`-sl`=速度下限，`-tlr`=丢包率上限，`-dn`=测试数量(默认10)，`-f`=测试文件名，`-o`=结果导出文件名
